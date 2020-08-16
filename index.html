@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/726548b92d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="sidebar">
+        <div id="side-top-section">
+            <div class="user-profile">
+                <img src="https://www.kindpng.com/picc/m/136-1369892_avatar-people-person-business-user-man-character-avatar.png" alt="user profile">
+                <p id="user-name">Ravi Kumar</p>
+                <p id="user-email">ravikumr0403@gmail.com</p>
+            </div>
+            <div id="menu">
+                <span><i class="fas fa-home icon"></i><p>Home</p></span>
+                <span><i class="fas fa-th-large icon"></i><p>Browse</p></span>
+                <span><i class="far fa-file-image icon"></i><p>Album</p></span>
+                <span><i class="fas fa-user icon"></i><p>Artists</p></span>
+                <span><i class="fas fa-video icon"></i><p>Videos</p></span>
+            </div>
+            <div id="my-music">
+                <h2>my Music</h2>
+                <span><i class="fas fa-history icon"></i><p>Recently Played</p></span>
+                <span><i class="far fa-file icon"></i><p>Local Files</p></span>
+            </div>
+        </div>
+        <div id="side-bottom-card">
+            <img src="https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg" alt="iPhone X">
+            <div id="iphone">
+                <p>Iphone X</p>
+                <p>128 Gb</p>
+            </div>
+            <i class="fas fa-angle-up icon"></i>
+        </div>
+
+    </section>
+
+    <main>
+        <header>
+            <div id="header-left">
+                <input id="search-bar" type="text" placeholder="Search for song, artists etc...">
+                <div id="search-icon"> 
+                    <i class="fas fa-search icon"></i>  
+                </div>
+            </div>
+            <div id="header-right">
+                <div id="notification">
+                    <i class="far fa-bell icon"></i>
+                    <div id="red-dot"></div>
+                </div>
+                <div><i class="fas fa-cog icon" id="setting"></i></div>
+                <div><button class="btn">Upgrade Plan</button></div>
+            </div>
+        </header>
+        <section id="topcharts-container">
+            <div id="topcharts-header">
+                <p>Billboard Topchart</p>
+                <div id="scroll-buttons">
+                    <i class="fas fa-angle-left icon"></i>
+                    <i class="fas fa-angle-right icon"></i>
+                </div>
+            </div>
+            <div id="topcharts-grid">
+                <div class="grid-item">
+                    <img class="thumbnail" src="https://imgix.bustle.com/inverse/30/73/24/3c/1222/490c/8172/20fc7e131358/chance-the-rapper-coloring-book-2-chainz-lil-wayne-download-mixtape.jpeg" alt="coloring book">
+                    <p class="song-title">Coloring Book</p>
+                    <p class="artist">Pop King</p>
+                </div>
+                <div class="grid-item">
+                    <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/en/3/38/Troye_Sivan_-_Blue_Neighbourhood.png" alt="Blue Neighbourhood">
+                    <p class="song-title">Blue Neighbourhood</p>
+                    <p class="artist">Troye Sivan</p>
+                </div>
+                <div class="grid-item">
+                    <img class="thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4ahX8elHZccmXRC2wwMV4GXssBTSf5oCGtg&usqp=CAU" alt="Starboy">
+                    <p class="song-title">Starboy</p>
+                    <p class="artist">The Weekend</p>
+                </div>
+                <div class="grid-item">
+                    <img class="thumbnail" src="https://img.youtube.com/vi/1rjwAQcBBbg/maxresdefault.jpg" alt="Mirage">
+                    <p class="song-title">Mirage</p>
+                    <p class="artist">Else Twin</p>
+                </div>
+                <div class="grid-item">
+                    <img class="thumbnail" src="https://img.youtube.com/vi/vxUBYHz_q1I/0.jpg" alt="Attention">
+                    <p class="song-title">Attention</p>
+                    <p class="artist">Charlie Puth</p>
+                </div>
+                <div class="grid-item">
+                    <img class="thumbnail" src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="Blank Space">
+                    <p class="song-title">Blank Space</p>
+                    <p class="artist">Taylor Swift</p>
+                </div>
+            </div>
+        </section>
+        <section id="main-bottom">
+            <section id="bottom-left">
+                <div class="header-section">
+                    <h3>Most Popular</h3>
+                    <p>92 songs</p>
+                </div>
+                <div id="playlist">
+                    <div class="track-details">
+                        <div>
+                            <p>01</p>
+                            <img class="playlist-thumbnail" src="https://imgix.bustle.com/inverse/30/73/24/3c/1222/490c/8172/20fc7e131358/chance-the-rapper-coloring-book-2-chainz-lil-wayne-download-mixtape.jpeg" alt="">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+                        <p>Coloring B</p>
+                        <p>Pop King</p>
+                        <p>3:22</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="track-details">
+                        <div>
+                            <p>01</p>
+                            <img class="playlist-thumbnail" src="https://imgix.bustle.com/inverse/30/73/24/3c/1222/490c/8172/20fc7e131358/chance-the-rapper-coloring-book-2-chainz-lil-wayne-download-mixtape.jpeg" alt="">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+                        <p>Chance T..</p>
+                        <p>Troyne Sivan</p>
+                        <p>4:31</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="track-details">
+                        <div>
+                            <p>01</p>
+                            <img class="playlist-thumbnail" src="https://img.youtube.com/vi/1rjwAQcBBbg/maxresdefault.jpg" alt="">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+                        <p>Mirage</p>
+                        <p>Else Twin</p>
+                        <p>4:02</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="track-details">
+                        <div>
+                            <p>01</p>
+                            <img class="playlist-thumbnail" src="https://img.youtube.com/vi/vxUBYHz_q1I/0.jpg" alt="">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+                        <p>Attention</p>
+                        <p>Charlie Puth</p>
+                        <p>3:52</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="track-details">
+                        <div>
+                            <p>01</p>
+                            <img class="playlist-thumbnail" src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+                        <p>Blank Sp..</p>
+                        <p>Taylor Swift</p>
+                        <p>4:33</p>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="bottom-right">
+                <div class="header-section">
+                    <h3>Now Playing</h3>
+                    <p>55 Items on the list</p>
+                </div>
+                <div id="player-container">
+                    <div id="player">
+                        <div id="disk">
+                            <img src="https://images.genius.com/3e8c8393b2c8b42a3557b67d8657e4b2.630x630x1.jpg" alt="">
+                            <div id="white-circle"></div>
+                        </div>
+                        
+                        <p>Chance The Rapper</p>
+                        <p>Pop King</p>
+                        <div id="seekbar"></div>
+                        <div id="time">
+                            <p>2:10</p>
+                            <p>-03:56</p>
+                        </div>
+                    </div>
+                    <div id="player-controls">
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-angle-double-left"></i>
+                        <i class="fas fa-pause"></i>
+                        <i class="fas fa-angle-double-right"></i>
+                        <i class="fas fa-undo"></i>
+                    </div>
+                </div>
+    
+            </section>
+
+        </section>
+    </main>
+</body>
+</html>
