@@ -47,7 +47,7 @@ body{
 #user-email{
     font-size: 14px;
     margin: 5px 0 0;
-    color: rgb(163, 158, 158);
+    color:rgb(70, 69, 69);
 }
 
 #menu{
@@ -57,7 +57,8 @@ body{
     align-items: flex-start;
 }
 .icon{
-    color: rgb(163, 158, 158);
+    width: 16px;
+    color: rgb(70, 69, 69);
 }
 
 #menu>span{
@@ -85,7 +86,7 @@ span>p{
 }
 
 #my-music>h2{
-    color: rgb(163, 158, 158);
+    color: rgb(70, 69, 69);
     font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
@@ -130,7 +131,7 @@ span>p{
     margin: 0;
 }
 #iphone>p~p{
-    color: rgb(163, 158, 158);
+    color: rgb(70, 69, 69);
     font-size: 12px;
     margin: 0;
 }
@@ -169,7 +170,7 @@ header{
     width: 40%;
 }
 #search-icon{
-    color: rgb(163, 158, 158);
+    color: rgb(70, 69, 69);
     font-size: 15px;
     position: absolute;
     left: 20px;
@@ -206,6 +207,13 @@ header{
     border-radius: 50px;
     padding: 12px 25px;
     cursor: pointer;
+}
+
+.btn:hover{
+    background-image: none;
+    color: red;
+    padding: 11px 24px;
+    border: 1px solid red;
 }
 #setting{
     cursor:pointer;
@@ -260,7 +268,7 @@ header{
 .artist{
     margin: 0;
     font-size: 10px;
-    color: rgb(163, 158, 158);
+    color: rgb(70, 69, 69);
 }
 
 /* Grid Styles End */
@@ -283,7 +291,14 @@ header{
 .header-section>p{
     margin: 0;
     font-size: 14px;
-    color: rgb(163, 158, 158);
+    color: rgb(70, 69, 69);
+}
+.fav{
+    color: red;
+}
+i:hover{
+    cursor: pointer;
+
 }
 .track-details{
     padding: 2px 30px;
@@ -294,7 +309,7 @@ header{
     border-radius: 12px;
     margin-top: 7px;
     box-shadow: 3px 3px 5px #ccc;
-    color: rgb(184, 184, 184);
+    color: rgb(70, 69, 69);
 }
 
 .track-details>div{
@@ -367,13 +382,26 @@ header{
     margin: 0;
     font-size: 12px;
     font-weight: 500;
-    color: rgb(163, 158, 158)
+    color: rgb(70, 69, 69);
 }
 
 #seekbar{
     margin-top: 15px;
     width: 90%;
-    border: 1.2px solid #ccc
+    border: 1.2px solid #ccc;
+    position: relative;
+}
+#seekbar-pointer{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    background-color: rgb(54, 198, 247);
+    border-radius: 50%;
+    bottom: -3px;
+    left: 30%;
+}
+#seekbar:hover{
+    cursor: pointer;
 }
 #time{
     width: 90%;
@@ -384,7 +412,7 @@ header{
 #time>p{
     margin:5px 0px 0px;
     font-size: 12px;
-    color: #A39E9E;
+    color: rgb(70, 69, 69);
 }
 
 #player-controls{
