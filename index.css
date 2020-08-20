@@ -9,7 +9,7 @@ body{
 }
 
 #sidebar{
-    height: 100%;
+    height: 100vh;
     width: 20%;
     display: flex;
     flex-direction:column;
@@ -145,7 +145,7 @@ span>p{
 /* Sidebar Styles End */
 /* Main section Styles Start */
 main{
-    max-height: 100vh;
+    height: 100vh;
     width: 80%;
     background-color: #e4f0f2;
     padding: 20px;
@@ -240,11 +240,16 @@ header{
     justify-content: space-between;
 }
 #topcharts-grid{
-    display: flex;
     margin:0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+}
+::-webkit-scrollbar{
+    width: 0px;
 }
 .grid-item{
-    width: 16%;
+    min-width: 16%;
     border-radius: 15px;
     margin: 10px;
     transition: transform 0.3s;
