@@ -9,311 +9,323 @@
     <script src="https://kit.fontawesome.com/726548b92d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="sidebar">
-        <div id="side-top-section">
-            <div class="user-profile">
-                <img src="https://www.kindpng.com/picc/m/136-1369892_avatar-people-person-business-user-man-character-avatar.png" alt="user profile">
-                <p id="user-name">Ravi Kumar</p>
-                <p id="user-email">ravikumr0403@gmail.com</p>
-            </div>
-            <div id="menu">
-                <span><i class="fas fa-home icon"></i><p>Home</p></span>
-                <span><i class="fas fa-th-large icon"></i><p>Browse</p></span>
-                <span><i class="far fa-file-image icon"></i><p>Album</p></span>
-                <span><i class="fas fa-user icon"></i><p>Artists</p></span>
-                <span><i class="fas fa-video icon"></i><p>Videos</p></span>
-            </div>
-            <div id="my-music">
-                <h2>my Music</h2>
-                <span><i class="fas fa-history icon"></i><p>Recently Played</p></span>
-                <span><i class="far fa-file icon"></i><p>Local Files</p></span>
-            </div>
-        </div>
-        <div id="side-bottom-card">
-            <img src="https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg" alt="iPhone X">
-            <div id="iphone">
-                <p>Iphone X</p>
-                <p>128 Gb</p>
-            </div>
-            <i class="fas fa-angle-up icon"></i>
-        </div>
-
-    </section>
-
-    <main>
-        <header>
-            <div id="header-left">
-                <input id="search-bar" type="text" placeholder="Search for song, artists etc...">
-                <div id="search-icon"> 
-                    <i class="fas fa-search icon"></i>  
+    <div id="flex-container">
+        <section id="sidebar">
+            <div id="side-top-section">
+                <div class="user-profile">
+                    <img src="https://www.kindpng.com/picc/m/136-1369892_avatar-people-person-business-user-man-character-avatar.png" alt="user profile">
+                    <p id="user-name">Ravi Kumar</p>
+                    <p id="user-email">ravikumr0403@gmail.com</p>
+                </div>
+                <div id="menu">
+                    <span><i class="fas fa-home icon"></i><p>Home</p></span>
+                    <span><i class="fas fa-th-large icon"></i><p>Browse</p></span>
+                    <span><i class="far fa-file-image icon"></i><p>Album</p></span>
+                    <span><i class="fas fa-user icon"></i><p>Artists</p></span>
+                    <span><i class="fas fa-video icon"></i><p>Videos</p></span>
+                </div>
+                <div id="my-music">
+                    <h2>my Music</h2>
+                    <span><i class="fas fa-history icon"></i><p>Recently Played</p></span>
+                    <span><i class="far fa-file icon"></i><p>Local Files</p></span>
                 </div>
             </div>
-            <div id="header-right">
-                <div id="notification">
-                    <i class="far fa-bell icon"></i>
-                    <div id="red-dot"></div>
+            <div id="side-bottom-card">
+                <img src="https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg" alt="iPhone X">
+                <div id="iphone">
+                    <p>Iphone X</p>
+                    <p>128 Gb</p>
                 </div>
-                <div><i class="fas fa-cog icon" id="setting"></i></div>
-                <div><button class="btn">Upgrade Plan</button></div>
+                <i class="fas fa-angle-up icon"></i>
             </div>
-        </header>
-        <section id="topcharts-container">
-            <div id="topcharts-header">
-                <p>Billboard Topchart</p>
-                <div id="scroll-buttons">
-                    <i class="fas fa-angle-left icon"></i>
-                    <i class="fas fa-angle-right icon"></i>
-                </div>
-            </div>
-            <div id="topcharts-grid">
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://m.media-amazon.com/images/I/71X0Jw006cL._SS500_.jpg" alt="coloring book">
-                    <p class="song-title">The Way I Am</p>
-                    <p class="artist">Charlie Puth</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/en/4/40/Charlie_Puth_Feat._Selena_Gomez_-_We_Don%27t_Talk_Anymore_%28Official_Single_Cover%29.png" alt="Blue Neighbourhood">
-                    <p class="song-title">We Dont Talk Anymore</p>
-                    <p class="artist">Charlie Puth</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/tvTRZJ-4EyI/hqdefault.jpg" alt="Humble">
-                    <p class="song-title">Humble</p>
-                    <p class="artist">Kendrick Lamar</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/_Yhyp-_hX2s/hqdefault.jpg" alt="Loose Yourself">
-                    <p class="song-title">Loose Yourself</p>
-                    <p class="artist">Eminem</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://img.youtube.com/vi/vxUBYHz_q1I/0.jpg" alt="Attention">
-                    <p class="song-title">Attention</p>
-                    <p class="artist">Charlie Puth</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="Blank Space">
-                    <p class="song-title">Blank Space</p>
-                    <p class="artist">Taylor Swift</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://i.ytimg.com/vi/GWtfOHBF1_w/maxresdefault.jpg" alt="Starboy">
-                    <p class="song-title">Calm Down</p>
-                    <p class="artist">Taylor Swift</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://i.ytimg.com/vi/87gWaABqGYs/hqdefault.jpg" alt="Mirage">
-                    <p class="song-title">Galway Girl</p>
-                    <p class="artist">Ed Sheeran</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/FhF9RwkHAJw/maxresdefault.jpg" alt="Kamikaze">
-                    <p class="song-title">Kamikaze</p>
-                    <p class="artist">Eminem</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/Bznxx12Ptl0/hqdefault.jpg" alt="Albatraoz">
-                    <p class="song-title">Albatraoz</p>
-                    <p class="artist">AronChupa</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/MfTbHITdhEI/hqdefault.jpg" alt="Fall">
-                    <p class="song-title">Fall</p>
-                    <p class="artist">Eminem</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/TdyllLZeviY/hqdefault.jpg" alt="Done For Me">
-                    <p class="song-title">Done For Me</p>
-                    <p class="artist">Charlie Puth</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/YrbgUtCfnC0/hqdefault.jpg" alt="365">
-                    <p class="song-title">365</p>
-                    <p class="artist">Kate Perry</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/nYh-n7EOtMA/hqdefault.jpg" alt="Cheap Thrills">
-                    <p class="song-title">Cheap Thrills</p>
-                    <p class="artist">Sia</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://m.media-amazon.com/images/I/71X0Jw006cL._SS500_.jpg" alt="coloring book">
-                    <p class="song-title">The Way I Am</p>
-                    <p class="artist">Charlie Puth</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/en/4/40/Charlie_Puth_Feat._Selena_Gomez_-_We_Don%27t_Talk_Anymore_%28Official_Single_Cover%29.png" alt="Blue Neighbourhood">
-                    <p class="song-title">We Dont Talk Anymore</p>
-                    <p class="artist">Charlie Puth</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/tvTRZJ-4EyI/hqdefault.jpg" alt="Humble">
-                    <p class="song-title">Humble</p>
-                    <p class="artist">Kendrick Lamar</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/_Yhyp-_hX2s/hqdefault.jpg" alt="Loose Yourself">
-                    <p class="song-title">Loose Yourself</p>
-                    <p class="artist">Eminem</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://img.youtube.com/vi/vxUBYHz_q1I/0.jpg" alt="Attention">
-                    <p class="song-title">Attention</p>
-                    <p class="artist">Charlie Puth</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="Blank Space">
-                    <p class="song-title">Blank Space</p>
-                    <p class="artist">Taylor Swift</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://i.ytimg.com/vi/GWtfOHBF1_w/maxresdefault.jpg" alt="Starboy">
-                    <p class="song-title">Calm Down</p>
-                    <p class="artist">Taylor Swift</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="https://i.ytimg.com/vi/87gWaABqGYs/hqdefault.jpg" alt="Mirage">
-                    <p class="song-title">Galway Girl</p>
-                    <p class="artist">Ed Sheeran</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/FhF9RwkHAJw/maxresdefault.jpg" alt="Kamikaze">
-                    <p class="song-title">Kamikaze</p>
-                    <p class="artist">Eminem</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/Bznxx12Ptl0/hqdefault.jpg" alt="Albatraoz">
-                    <p class="song-title">Albatraoz</p>
-                    <p class="artist">AronChupa</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/MfTbHITdhEI/hqdefault.jpg" alt="Fall">
-                    <p class="song-title">Fall</p>
-                    <p class="artist">Eminem</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/TdyllLZeviY/hqdefault.jpg" alt="Done For Me">
-                    <p class="song-title">Done For Me</p>
-                    <p class="artist">Charlie Puth</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/YrbgUtCfnC0/hqdefault.jpg" alt="365">
-                    <p class="song-title">365</p>
-                    <p class="artist">Kate Perry</p>
-                </div>
-                <div class="grid-item">
-                    <img class="thumbnail" src="http://i3.ytimg.com/vi/nYh-n7EOtMA/hqdefault.jpg" alt="Cheap Thrills">
-                    <p class="song-title">Cheap Thrills</p>
-                    <p class="artist">Sia</p>
-                </div>
-            </div>
+    
         </section>
-        <section id="main-bottom">
-            <section id="bottom-left">
-                <div class="header-section">
-                    <h3>Most Popular</h3>
-                    <p>92 songs</p>
+    
+        <main>
+            <header>
+                <div id="header-left">
+                    <input id="search-bar" type="text" placeholder="Search for song, artists etc...">
+                    <div id="search-icon"> 
+                        <i class="fas fa-search icon"></i>  
+                    </div>
                 </div>
-                <div id="playlist">
-                    <div class="track-details">
-                        <div>
-                            <p>01</p>
-                            <img class="playlist-thumbnail" src="https://m.media-amazon.com/images/I/71X0Jw006cL._SS500_.jpg" alt="">
-                            <i class="fas fa-caret-right"></i>
-                        </div>
-                        <p>The Way I am</p>
-                        <p>Charlie Puth</p>
-                        <div>
-                            <p>3:05</p>
-                            <i class="fas fa-heart fav"></i>
-                        </div>
+                <div id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div id="header-right">
+                    <div id="notification">
+                        <i class="far fa-bell icon"></i>
+                        <div id="red-dot"></div>
                     </div>
-                    <div class="track-details">
-                        <div>
-                            <p>01</p>
-                            <img class="playlist-thumbnail" src="https://upload.wikimedia.org/wikipedia/en/4/40/Charlie_Puth_Feat._Selena_Gomez_-_We_Don%27t_Talk_Anymore_%28Official_Single_Cover%29.png" alt="">
-                            <i class="fas fa-caret-right"></i>
-                        </div>
-                        <p>We Dont Talk..</p>
-                        <p>Charlie Puth</p>
-                        <div>
-                            <p>3:51</p>
-                            <i class="fas fa-heart"></i>
-                        </div>
+                    <div><i class="fas fa-cog icon" id="setting"></i></div>
+                    <div><button class="btn">Upgrade Plan</button></div>
+                </div>
+            </header>
+            <section id="topcharts-container">
+                <div id="topcharts-header">
+                    <p>Billboard Topchart</p>
+                    <div id="scroll-buttons">
+                        <i class="fas fa-angle-left icon"></i>
+                        <i class="fas fa-angle-right icon"></i>
                     </div>
-                    <div class="track-details">
-                        <div>
-                            <p>01</p>
-                            <img class="playlist-thumbnail" src="https://i.ytimg.com/vi/GWtfOHBF1_w/maxresdefault.jpg" alt="">
-                            <i class="fas fa-caret-right"></i>
-                        </div>
-                        <p>Calm Down</p>
-                        <p>Taylor Swift</p>
-                        <div>
-                            <p>3:30</p>
-                            <i class="fas fa-heart"></i>
-                        </div>
+                </div>
+                <div id="topcharts-grid">
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://m.media-amazon.com/images/I/71X0Jw006cL._SS500_.jpg" alt="coloring book">
+                        <p class="song-title">The Way I Am</p>
+                        <p class="artist">Charlie Puth</p>
                     </div>
-                    <div class="track-details">
-                        <div>
-                            <p>01</p>
-                            <img class="playlist-thumbnail" src="https://img.youtube.com/vi/vxUBYHz_q1I/0.jpg" alt="">
-                            <i class="fas fa-caret-right"></i>
-                        </div>
-                        <p>Attention</p>
-                        <p>Charlie Puth</p>
-                        <div>
-                            <p>3:52</p>
-                            <i class="fas fa-heart fav"></i>
-                        </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/en/4/40/Charlie_Puth_Feat._Selena_Gomez_-_We_Don%27t_Talk_Anymore_%28Official_Single_Cover%29.png" alt="Blue Neighbourhood">
+                        <p class="song-title">We Dont Talk Anymore</p>
+                        <p class="artist">Charlie Puth</p>
                     </div>
-                    <div class="track-details">
-                        <div>
-                            <p>01</p>
-                            <img class="playlist-thumbnail" src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="">
-                            <i class="fas fa-caret-right"></i>
-                        </div>
-                        <p>Blank Sp..</p>
-                        <p>Taylor Swift</p>
-                        <div>
-                            <p>4:33</p>
-                            <i class="fas fa-heart fav"></i>
-                        </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/tvTRZJ-4EyI/hqdefault.jpg" alt="Humble">
+                        <p class="song-title">Humble</p>
+                        <p class="artist">Kendrick Lamar</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/_Yhyp-_hX2s/hqdefault.jpg" alt="Loose Yourself">
+                        <p class="song-title">Loose Yourself</p>
+                        <p class="artist">Eminem</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://img.youtube.com/vi/vxUBYHz_q1I/0.jpg" alt="Attention">
+                        <p class="song-title">Attention</p>
+                        <p class="artist">Charlie Puth</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="Blank Space">
+                        <p class="song-title">Blank Space</p>
+                        <p class="artist">Taylor Swift</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://i.ytimg.com/vi/GWtfOHBF1_w/maxresdefault.jpg" alt="Starboy">
+                        <p class="song-title">Calm Down</p>
+                        <p class="artist">Taylor Swift</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://i.ytimg.com/vi/87gWaABqGYs/hqdefault.jpg" alt="Mirage">
+                        <p class="song-title">Galway Girl</p>
+                        <p class="artist">Ed Sheeran</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/FhF9RwkHAJw/maxresdefault.jpg" alt="Kamikaze">
+                        <p class="song-title">Kamikaze</p>
+                        <p class="artist">Eminem</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/Bznxx12Ptl0/hqdefault.jpg" alt="Albatraoz">
+                        <p class="song-title">Albatraoz</p>
+                        <p class="artist">AronChupa</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/MfTbHITdhEI/hqdefault.jpg" alt="Fall">
+                        <p class="song-title">Fall</p>
+                        <p class="artist">Eminem</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/TdyllLZeviY/hqdefault.jpg" alt="Done For Me">
+                        <p class="song-title">Done For Me</p>
+                        <p class="artist">Charlie Puth</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/YrbgUtCfnC0/hqdefault.jpg" alt="365">
+                        <p class="song-title">365</p>
+                        <p class="artist">Kate Perry</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/nYh-n7EOtMA/hqdefault.jpg" alt="Cheap Thrills">
+                        <p class="song-title">Cheap Thrills</p>
+                        <p class="artist">Sia</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://m.media-amazon.com/images/I/71X0Jw006cL._SS500_.jpg" alt="coloring book">
+                        <p class="song-title">The Way I Am</p>
+                        <p class="artist">Charlie Puth</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/en/4/40/Charlie_Puth_Feat._Selena_Gomez_-_We_Don%27t_Talk_Anymore_%28Official_Single_Cover%29.png" alt="Blue Neighbourhood">
+                        <p class="song-title">We Dont Talk Anymore</p>
+                        <p class="artist">Charlie Puth</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/tvTRZJ-4EyI/hqdefault.jpg" alt="Humble">
+                        <p class="song-title">Humble</p>
+                        <p class="artist">Kendrick Lamar</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/_Yhyp-_hX2s/hqdefault.jpg" alt="Loose Yourself">
+                        <p class="song-title">Loose Yourself</p>
+                        <p class="artist">Eminem</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://img.youtube.com/vi/vxUBYHz_q1I/0.jpg" alt="Attention">
+                        <p class="song-title">Attention</p>
+                        <p class="artist">Charlie Puth</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="Blank Space">
+                        <p class="song-title">Blank Space</p>
+                        <p class="artist">Taylor Swift</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://i.ytimg.com/vi/GWtfOHBF1_w/maxresdefault.jpg" alt="Starboy">
+                        <p class="song-title">Calm Down</p>
+                        <p class="artist">Taylor Swift</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="https://i.ytimg.com/vi/87gWaABqGYs/hqdefault.jpg" alt="Mirage">
+                        <p class="song-title">Galway Girl</p>
+                        <p class="artist">Ed Sheeran</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/FhF9RwkHAJw/maxresdefault.jpg" alt="Kamikaze">
+                        <p class="song-title">Kamikaze</p>
+                        <p class="artist">Eminem</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/Bznxx12Ptl0/hqdefault.jpg" alt="Albatraoz">
+                        <p class="song-title">Albatraoz</p>
+                        <p class="artist">AronChupa</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/MfTbHITdhEI/hqdefault.jpg" alt="Fall">
+                        <p class="song-title">Fall</p>
+                        <p class="artist">Eminem</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/TdyllLZeviY/hqdefault.jpg" alt="Done For Me">
+                        <p class="song-title">Done For Me</p>
+                        <p class="artist">Charlie Puth</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/YrbgUtCfnC0/hqdefault.jpg" alt="365">
+                        <p class="song-title">365</p>
+                        <p class="artist">Kate Perry</p>
+                    </div>
+                    <div class="grid-item">
+                        <img class="thumbnail" src="http://i3.ytimg.com/vi/nYh-n7EOtMA/hqdefault.jpg" alt="Cheap Thrills">
+                        <p class="song-title">Cheap Thrills</p>
+                        <p class="artist">Sia</p>
                     </div>
                 </div>
             </section>
-            <section id="bottom-right">
-                <div class="header-section">
-                    <h3>Now Playing</h3>
-                    <p>55 Items on the list</p>
-                </div>
-                <div id="player-container">
-                    <div id="player">
-                        <div id="disk">
-                            <img src="https://m.media-amazon.com/images/I/71X0Jw006cL._SS500_.jpg" alt="">
-                            <div id="white-circle"></div>
+            <section id="main-bottom">
+                <section id="bottom-left">
+                    <div class="header-section">
+                        <h3>Most Popular</h3>
+                        <p>92 songs</p>
+                    </div>
+                    <div id="playlist">
+                        <div class="track-details">
+                            <div>
+                                <p>01</p>
+                                <img class="playlist-thumbnail" src="https://m.media-amazon.com/images/I/71X0Jw006cL._SS500_.jpg" alt="">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <p>The Way I am</p>
+                            <p>Charlie Puth</p>
+                            <div>
+                                <p>3:05</p>
+                                <i class="fas fa-heart fav"></i>
+                            </div>
                         </div>
-                        
-                        <p>The Way I Am</p>
-                        <p>Charlie Puth</p>
-                        <div id="seekbar"><div id="seekbar-pointer"></div></div>
-                        <div id="time">
-                            <p>1:10</p>
-                            <p>-1:55</p>
+                        <div class="track-details">
+                            <div>
+                                <p>01</p>
+                                <img class="playlist-thumbnail" src="https://upload.wikimedia.org/wikipedia/en/4/40/Charlie_Puth_Feat._Selena_Gomez_-_We_Don%27t_Talk_Anymore_%28Official_Single_Cover%29.png" alt="">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <p>We Dont Talk..</p>
+                            <p>Charlie Puth</p>
+                            <div>
+                                <p>3:51</p>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="track-details">
+                            <div>
+                                <p>01</p>
+                                <img class="playlist-thumbnail" src="https://i.ytimg.com/vi/GWtfOHBF1_w/maxresdefault.jpg" alt="">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <p>Calm Down</p>
+                            <p>Taylor Swift</p>
+                            <div>
+                                <p>3:30</p>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="track-details">
+                            <div>
+                                <p>01</p>
+                                <img class="playlist-thumbnail" src="https://img.youtube.com/vi/vxUBYHz_q1I/0.jpg" alt="">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <p>Attention</p>
+                            <p>Charlie Puth</p>
+                            <div>
+                                <p>3:52</p>
+                                <i class="fas fa-heart fav"></i>
+                            </div>
+                        </div>
+                        <div class="track-details">
+                            <div>
+                                <p>01</p>
+                                <img class="playlist-thumbnail" src="https://img.youtube.com/vi/e-ORhEE9VVg/hqdefault.jpg" alt="">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                            <p>Blank Sp..</p>
+                            <p>Taylor Swift</p>
+                            <div>
+                                <p>4:33</p>
+                                <i class="fas fa-heart fav"></i>
+                            </div>
                         </div>
                     </div>
-                    <div id="player-controls">
-                        <i class="fas fa-random"></i>
-                        <i class="fas fa-angle-double-left"></i>
-                        <i class="fas fa-pause"></i>
-                        <i class="fas fa-angle-double-right"></i>
-                        <i class="fas fa-undo"></i>
+                </section>
+                <section id="bottom-right">
+                    <div class="header-section">
+                        <h3>Now Playing</h3>
+                        <p>55 Items on the list</p>
                     </div>
-                </div>
+                    <div id="player-container">
+                        <div id="player">
+                            <div id="disk">
+                                <img src="https://m.media-amazon.com/images/I/71X0Jw006cL._SS500_.jpg" alt="">
+                                <div id="white-circle"></div>
+                            </div>
+                            
+                            <p>The Way I Am</p>
+                            <p>Charlie Puth</p>
+                            <div id="seekbar"><div id="seekbar-pointer"></div></div>
+                            <div id="time">
+                                <p>1:10</p>
+                                <p>-1:55</p>
+                            </div>
+                        </div>
+                        <div id="player-controls">
+                            <i class="fas fa-random"></i>
+                            <i class="fas fa-angle-double-left"></i>
+                            <i class="fas fa-pause"></i>
+                            <i class="fas fa-angle-double-right"></i>
+                            <i class="fas fa-undo"></i>
+                        </div>
+                    </div>
+        
+                </section>
     
             </section>
-
-        </section>
-    </main>
+        </main>
+    </div>
+    <footer>
+        <i class="fas fa-home"></i>
+        <i class="fab fa-safari"></i>
+        <i class="fas fa-podcast"></i>
+        <i class="fas fa-user-circle"></i>
+        <i class="fas fa-arrow-circle-up"></i>
+    </footer>
 </body>
 </html>

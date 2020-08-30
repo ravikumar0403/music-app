@@ -1,13 +1,12 @@
 body{
     margin:0;
-    height:100vh;
-    margin: aut0;
+    margin: auto;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    max-height: 100vh;
-    overflow: hidden;
 }
 
+#flex-container{
+    display: flex;
+}
 #sidebar{
     height: 100vh;
     width: 20%;
@@ -150,8 +149,6 @@ main{
     background-color: #e4f0f2;
     padding: 20px;
     box-shadow: 8px 8px 30px #e4f0f2;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
 }
 
 header{
@@ -249,7 +246,7 @@ header{
     width: 0px;
 }
 .grid-item{
-    min-width: 16%;
+    min-width: 150px;
     border-radius: 15px;
     margin: 10px;
     transition: transform 0.3s;
@@ -425,4 +422,78 @@ i:hover{
     width: 70%;
     margin: 25px auto;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 601px){
+    footer{
+        display: none;
+    }
+    #hamburger{
+        display: none;
+    }
+    body{
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px){
+    main{
+        box-shadow: none;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header{
+        margin-top:2%;
+        display: flex;
+        align-items: center;
+    }
+
+    #sidebar{
+        display: none;
+    }
+
+    #search-bar{
+        width: 43px;
+    }
+
+    #header-right{
+        display: none;        
+    }
+
+    #bottom-left{
+        display: none;
+    }
+    #bottom-right{
+        width: 100%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main-bottom{
+        margin-bottom: 10px;
+    }
+
+
+    .header-section{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        height: 50px;
+        margin: 0px;
+        font-size: 1.5em;
+        color: #000;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(0, 174, 255);
+    }
+    footer>i:last-of-type{
+        color: rgb(0, 174, 255);
+        border: 1.5px solid red;
+        background: red;
+        border-radius: 100%;
+        font-size: 32px;
+    }
 }
